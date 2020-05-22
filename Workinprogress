@@ -1,0 +1,14 @@
+Observations and Improvements I feel:
+
+1. EDA: Understanding different attributes and choosing what are all the attributes to be a part of Model building with proper reasoning. 
+One of the easiest ways to figure out the most likely influencing Independent variables to our Target variable: 
+using Bi-variate analysis( each independent vs Target) 
+2. Highlighting the presence of highly correlated variables using correlation matrix and then stating none of highly correlated variables 
+    to be dropped, as PCA has a way to handle highly correlated variables. 
+3. None of the variables are being dropped in this approach - Need to figure out the variables to be dropped. 
+4. Overall inferences from EDA are very limited and requires lot of improvement. 
+5. Need to highlight the presence of highly correlated variables using correlation matrix. 
+  Inferences from Pair plot analysis are missing. 
+6. Model building using PCA components could have been also explored to compare the performance between both models
+  (one with PCA components and one without PCA components i.e. with original features). 
+7. This model is clearly showing a fluke accuracy i.e. 100% and this might be due to data leak or over-fitting.
